@@ -2,23 +2,6 @@
 <a href="https://huggingface.co/spaces/halleewong/ScribblePrompt"><img alt="Spaces" src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue"></a>
 <a href="https://colab.research.google.com/drive/14ExpVy3PjCCp4VzgTo27Yh_aLBafK8cX?usp=sharing"><img alt="Colab" src="https://colab.research.google.com/assets/colab-badge.svg"></a>
 
-# ScribblePrompt
-
-### [Project Page](https://scribbleprompt.csail.mit.edu) | [Paper](https://arxiv.org/abs/2312.07381) | [Online Demo](https://huggingface.co/spaces/halleewong/ScribblePrompt) | [Video](https://youtu.be/L8CiAoHzPUE)
-
-Official implementation of "ScribblePrompt: Fast and Flexible Interactive Segmentation for any Medical Image" 
-
-[Hallee E. Wong](https://halleewong.github.io/), [Marianne Rakic](https://mariannerakic.github.io/), [John Guttag](https://people.csail.mit.edu/guttag/), [Adrian V. Dalca](http://www.mit.edu/~adalca/)
-
-## Updates
-
-* (2024-04-16) Released [MedScribble](https://github.com/halleewong/ScribblePrompt/tree/main/MedScribble) -- a diverse dataset of segmentation tasks with scribble annotations
-* (2024-04-15) An updated version of the paper is on arXiv!
-* (2024-04-14) Added google colab tutorial
-* (2024-01-19) Released scribble simulation code
-* (2023-12-15) Released model code and weights 
-* (2023-12-12) Paper and online demo released
-
 ## Overview
 
 **ScribblePrompt** is an interactive segmentation tool that enables users to segment *unseen* structures in medical images using scribbles, clicks, *and* bounding boxes. 
@@ -127,27 +110,7 @@ For ScribblePrompt-UNet, `mask_input` should be the logits from the previous pre
 - [ ] Release training code
 - [ ] Release segmentation labels collected using ScribblePrompt
 
-## Acknowledgements
 
-* Code for ScribblePrompt-SAM builds on [Segment Anything](https://github.com/facebookresearch/segment-anything). Thanks to Meta AI for open-sourcing the model. 
-
-* We use functions from [voxsynth](https://github.com/dalcalab/voxynth) for applying random deformations during scribble simulation 
-
-## Citation
-
-If you find our work or any of our materials useful, please cite our paper:
-```
-@article{wong2024scribbleprompt,
-  title={ScribblePrompt: Fast and Flexible Interactive Segmentation for Any Biomedical Image},
-  author={Hallee E. Wong and Marianne Rakic and John Guttag and Adrian V. Dalca},
-  journal={arXiv:2312.07381},
-  year={20234},
-}
-```
-
-## License
-
-Code for this project is released under the [Apache 2.0 License](https://github.com/halleewong/ScribblePrompt/blob/main/LICENSE) 
 
 
 
