@@ -40,7 +40,7 @@ You can install `scribbleprompt` in two ways:
 * **With pip**:
 
 ```
-pip install git+https://github.com/halleewong/ScribblePrompt.git
+pip install git+https://github.com/rida/ScribblePrompt.git
 ```
 
 * **Manually**: cloning it and installing dependencies
